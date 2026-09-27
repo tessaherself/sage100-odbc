@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hundred-odbc"
+version = "0.1.0"
+description = "Read-only access to Sage 100 through its ODBC driver, returning typed records."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+keywords = ["sage 100", "mas 90", "providex", "odbc", "sotamas90", "erp"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: Microsoft :: Windows",
+  "Topic :: Office/Business :: Financial :: Accounting",
+]
+
+[project.optional-dependencies]
+# pyodbc is only needed to talk to a real Sage 100; the tests run without it.
+odbc = ["pyodbc>=5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
