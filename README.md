@@ -64,7 +64,7 @@ SQL dialect: [ProvideX SQL syntax notes](https://kb.dataself.com/ds/providex-sql
 
 ## Need writes, or no Windows box?
 
-This package is the read-only building block of [Hundred](https://hundredapi.com/), a hosted REST API for Sage 100 with reads and writes through Sage's own business logic, typed SDKs, and no ODBC or VPN on your side. Early access is open.
+[Hundred](https://hundredapi.com/) is a planned hosted REST API for Sage 100, with reads and writes through Sage's own business logic. It is not built yet; this package is the part that exists today. Early access is open: [join the list](https://hundredapi.com/#waitlist).
 
 ## License
 
